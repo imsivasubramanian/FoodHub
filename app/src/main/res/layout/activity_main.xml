@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/backgroundColor">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo2"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnShop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explore Shops"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/primaryColor"/>
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Profile"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/purple_500"/>
+
+    <Button
+        android:id="@+id/btnCheckout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Checkout"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/teal_200"/>
+
+    <Button
+        android:id="@+id/btnSupport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Support"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/primaryVariant"/>
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Project"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+</LinearLayout>

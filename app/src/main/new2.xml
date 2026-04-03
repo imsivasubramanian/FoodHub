@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    android:background="#F7F7F7">
+
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" android:background="?attr/colorPrimary"
+        app:title="FoodHub" app:titleTextColor="@android:color/white"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ScrollView android:id="@+id/shopScroll" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout android:id="@+id/shopRoot" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView android:id="@+id/txtChooseShop" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="Choose a Shop"
+                android:textSize="20sp" android:textStyle="bold" />
+
+            <!-- Shop 1 -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="16dp" android:orientation="horizontal"
+                android:padding="12dp" android:background="@drawable/card_bg"
+                android:id="@+id/burgerPointCard">
+
+                <ImageView android:id="@+id/imgBurgerPoint" android:layout_width="70dp"
+                    android:layout_height="70dp" android:src="@drawable/img" />
+
+                <LinearLayout android:layout_marginStart="12dp" android:orientation="vertical"
+                    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                    <TextView android:id="@+id/txtBurgerPoint" android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:text="Burger Point"
+                        android:textStyle="bold" />
+
+                    <TextView android:id="@+id/txtBurgerStatus" android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:text="Open • Burgers - Fries"
+                        android:textColor="#4CAF50" android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Other shops... -->
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

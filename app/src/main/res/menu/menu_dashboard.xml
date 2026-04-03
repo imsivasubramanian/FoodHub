@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_profile"
+        android:title="Profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_contact_support"
+        android:title="Contact Support"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about_us"
+        android:title="About Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_team_details"
+        android:title="Team Details"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_project_description"
+        android:title="Project Description"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>
